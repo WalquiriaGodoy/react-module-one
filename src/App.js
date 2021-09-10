@@ -1,11 +1,13 @@
 import React from 'react';
-import { Button, ThemeProvider, createTheme } from '@material-ui/core';
+import Button from '@material-ui/core/Button';
+import {ThemeProvider, createTheme } from '@material-ui/core';
 import red from '@material-ui/core/colors/red';
 import blue from '@material-ui/core/colors/blue';
 
 
 // a função createtheme cria o objeto theme para ser uma propriedade do themeprovider
 // é preciso criar o objeto usando essa função
+// as forma de passar as propriedades do objeto theme estão no tutorial
 
 function App() {
   const theme = createTheme({
@@ -26,7 +28,7 @@ function App() {
   return (
 
     <ThemeProvider theme={theme}>
-      <Button color='primary'>Hello World</Button>
+      <Button variant="contained" color='primary'>Hello World</Button>
     </ThemeProvider>            
     
     // o themeprovider recebe um objeto como propriedade, o objeto é o theme 
