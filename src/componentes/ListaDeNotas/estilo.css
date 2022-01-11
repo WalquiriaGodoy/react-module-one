@@ -1,0 +1,7 @@
+.lista-notas {
+    color: blueviolet;
+    display: contents;
+}
+.lista-notas_item {
+    padding: 1rem;
+}

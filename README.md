@@ -1,3 +1,23 @@
+# Curso Alura - Formação React
+
+### Conteúdos
+- Instalação do Node.js e uso do NPX 
+- Criar a aplicação via Create-React-App.
+- Limpar o projeto 
+- Encapsulamento do componente
+- Componentização
+- Integração do JavaScript no JSX
+- Como integrar CSS dentro da sua aplicação React
+- Diferenças do class e className
+- Propriedade "key" dos componentes
+- Padrão de nomenclatura do CSS
+- Tratando o conflito de nomes
+- Ponto de entrada dos módulos
+- Organização do projeto
+- Como o this do JS é dinâmico e como lidar com isso
+- Referências para funções e injeção de dependências
+- Associando referências através do bind
+- Passando propriedades para elementos filhos
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
