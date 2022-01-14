@@ -17,7 +17,15 @@
 - Como o this do JS é dinâmico e como lidar com isso
 - Referências para funções e injeção de dependências
 - Associando referências através do bind
+- Injeção de dependência
 - Passando propriedades para elementos filhos
+- Como transmitir informações entre objetos
+- Fluxo de atualização do sistema
+- Para que serve o state
+- Como atribuir o state de maneira segura
+- Atualizar a visualização da tela dinamicamente
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
