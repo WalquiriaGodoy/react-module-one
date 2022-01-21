@@ -6,7 +6,7 @@ class FormularioCadastro extends Component{
     constructor(){
         super();
         this.titulo="";
-        }
+    }
 
     handleMudancaTitulo(evento){
         evento.stopPropagation();
