@@ -35,11 +35,11 @@ class FormularioCadastro extends Component{
                 onChange={this.handleMudancaTitulo.bind(this)}/>
             <textarea 
                 rows={15} 
-                placeholder="Escreva sua nota..." 
+                placeholder="Escreva uma notícia..." 
                 className="form-cadastro_input"
                 onChange={this.handleMudancaTexto.bind(this)}/>
             <button className="form-cadastro_input form-cadastro_submit">
-                Criar Nota
+                Criar Notícia
             </button>
         </form>
         )
