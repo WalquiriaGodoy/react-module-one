@@ -21,7 +21,7 @@ class FormularioCadastro extends Component{
     handleNovaNoticia(evento){
         evento.preventDefault();
         evento.stopPropagation();
-        this.props.renderizaNovaNoticia(this.titulo,this.texto);
+        this.props.criaNota(this.titulo,this.texto);
     }
    
     render(){
@@ -39,7 +39,7 @@ class FormularioCadastro extends Component{
                 className="form-cadastro_input"
                 onChange={this.handleMudancaTexto.bind(this)}/>
             <button className="form-cadastro_input form-cadastro_submit">
-                Criar Notícia
+                Criar Nota
             </button>
         </form>
         )

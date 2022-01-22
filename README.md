@@ -18,6 +18,11 @@
 - Referências para funções e injeção de dependências
 - Associando referências através do bind
 - Passando propriedades para elementos filhos
+- Diferentes maneiras de importar SVGs
+- Passando funções como propriedades para outros componentes
+- Revisão State e bind
+- O que é e para que serve a ferramenta SVGR
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
