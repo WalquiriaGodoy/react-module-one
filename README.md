@@ -32,6 +32,11 @@
 - Alteramos a representação de uma categoria
 - Separação entre dados e visualização e quais as vantagens dessa abordagem
 - Problemas com renderização e otimização do projeto
+- Por que é bom tirarmos referências do state em componentes que estão muito acima na hierarquia
+- Por que precisamos de uma fonte de dados
+- Separando dados da renderização
+- Padrão de projeto Observable
+- Vantagens de se fazer injeção de dependências
 
 # Getting Started with Create React App
 
