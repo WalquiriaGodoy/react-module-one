@@ -27,6 +27,11 @@
 - Como decidir onde colocar informações
 - Como funciona o Spread Operator do JS
 - Passando funções por propriedade e gerenciando estado
+- Como adicionar options no formulário dinamicamente
+- Fizemos uma reflexão sobre o design do projeto
+- Alteramos a representação de uma categoria
+- Separação entre dados e visualização e quais as vantagens dessa abordagem
+- Problemas com renderização e otimização do projeto
 
 # Getting Started with Create React App
 

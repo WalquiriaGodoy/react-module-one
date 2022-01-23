@@ -10,12 +10,12 @@ class App extends Component {
     super();
     this.state = {
       notas: [],
-      categorias: [],
+      categorias: ["Games", "Música"],
     }
   }
 
-  criaNota(titulo, texto){
-    const novaNota = {titulo, texto}
+  criaNota(titulo, texto, categoria){
+    const novaNota = {titulo, texto, categoria}
     const novoArrayNotas = [...this.state.notas, novaNota];
     const novoEstado = {
       notas: novoArrayNotas
